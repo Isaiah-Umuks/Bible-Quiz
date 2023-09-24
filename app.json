@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Bible Quiz",
+    "slug": "bible-quiz",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/bible-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/floral-adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.isexexpo.Bible Quiz"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8da08d3a-9b8c-46da-945b-c4de4ca427b0"
+      }
+    },
+    "owner": "isex-expo"
+  }
+}
